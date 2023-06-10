@@ -1,26 +1,28 @@
-<!doctype html>
+<!DOCTYPE  html>
 <html>
     <head>
         <title>Daniel Ramos Resume</title>
-        <link rel="stylesheet" href="resume.css">
+        <link rel="stylesheet" href="resume.css" type="text/css">
     </head>
     <body>
         <div id="header">
-            <h2>Daniel Ramos</h2>
-            <h3>rramsdany@gmail.com</h3>
-            <h3>916-604-1087 (mobile)</h3>
-            <h3>San Francisco Bay Area</h3>
-            <h3>LinkedIn: <a href="https://www.linkedin.com/in/rramsdany/" target="blank">https://www.linkedin.com/in/rramsdany/</a>| Github: <a href="https://github.com/rramsdany" target="blank">https://github.com/rramsdany</a> </h3>
+            <p id="name">Daniel Ramos</p><br>
+            <p class="edu_text">rramsdany@gmail.com</p><br>
+            <p class="edu_text">916-604-1087 (mobile)</p><br>
+            <p class="edu_text">San Francisco Bay Area</p><br>
+            <p class="edu_text">LinkedIn: <a href="https://www.linkedin.com/in/rramsdany/" target="blank">https://www.linkedin.com/in/rramsdany/</a> | Github: <a href="https://github.com/rramsdany" target="blank">https://github.com/rramsdany</a> </p>
         </div>
+        <hr>
         <div id="content">
             <div id="education">
-                <div>
+                <div class="education_section">
+                    <p>EDUCATION</p>
                     <p>California State University, Sacramento - Sacramento, CA</p>
                     <p>December 2022</p>
                     <p>Bachelor of Science in Computer Science, Cum Laude</p>
                     <p>GPA: 3.65/4.00</p>
                 </div>
-                <div>
+                <div class="education_section">
                     <p>Sacramento City College - Sacramento, CA</p>
                     <p>December 2020</p>
                     <p>Assocaite of Science in Mathematics</p>
@@ -28,76 +30,93 @@
                 </div>
             </div>
             <div id="technical_skills">
-                <div>
-                    <p>JavaScript / TypeScript Programming</p>
-                    <p>Java Spring Boot Framework</p>
-                    <p>React JS</p>
-                    <p>Angular Web Framework</p>
-                    <p>Power BI</p>
-                    <p>Kusto Query Language</p>
+                <div class="tech_skills_section">
+                    <p>TECHNICAL SKILLS</p>
+                    <div>
+                        <ul class="skills_list">
+                            <li>JavaScript / TypeScript Programming</li>
+                            <li>Java Spring Boot Framework</li>
+                            <li>React JS</li>
+                            <li>Angular Web Framework</li>
+                            <li>Power BI</li>
+                            <li>Kusto Query Language (KQL)</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div id="experience">
-                <div>
-                    <div> <!-- Company, Position, Date -->
+                <div class="experience_section">
+                    <p>EXPERIENCE</p>
+                    <div class="experience_header"> <!-- Company, Position, Date -->
                         <p>Microsoft Corporation</p>
                         <p>Software Engineer</p>
                         <p>January 2023 - Present</p>
                     </div>
-                    <div> <!-- Bullets -->
-                        <p>Implemented authentication telemetry for <a href="https://designer.microsoft.com/" target="blank">Microsoft Designer</a>, increasing visibility and monitoring of key metrics such as sign in/out, SSO, access token acquisition, and active account changes using Kusto Query Language and Power BI.</p>
-                        <p>Improved QoS of authentication features by analyzing telemetry data and addressing bugs, resulting in 30% increase in SSO, 10% increase in sign in success, and 99% QoS for access token acquisition.</p>
-                        <p>Collaborated with the go-to-market (GTM) crew and identity provider team to identify and resolve login issues for Microsoft Designer, leading to a 13% increase in login success rate by optimizing upsells and the authentication flow.</p>
+                    <div class="experience_content"> <!-- Bullets -->
+                        <ul>
+                            <li>Implemented authentication telemetry for <a href="https://designer.microsoft.com/" target="blank">Microsoft Designer</a>, increasing visibility and monitoring of key metrics such as sign in/out, SSO, access token acquisition, and active account changes using Kusto Query Language and Power BI.</li>
+                            <li>Improved QoS of authentication features by analyzing telemetry data and addressing bugs, resulting in 30% increase in SSO, 10% increase in sign in success, and 99% QoS for access token acquisition.</li>
+                            <li>Collaborated with the go-to-market (GTM) crew and identity provider team to identify and resolve login issues for Microsoft Designer, leading to a 13% increase in login success rate by optimizing upsells and the authentication flow.</li>
+                        </ul>
                     </div>
                 </div>
-                <div> 
-                    <div> <!-- Company, Position, Date -->
+                <div class="experience_section"> 
+                    <div class="experience_header"> <!-- Company, Position, Date -->
                         <p>Microsoft Corporation</p>
                         <p>Software Engineer Intern</p>
                         <p>June 2022 - August 2022</p>
                     </div>
-                    <div> <!-- Bullets -->
-                        <p>Scoped and designed the login flow for anonymous users who interact with premium features for <a href="https://designer.microsoft.com/" target="blank">Microsoft Designer</a>, preparing the app for public launch and user acquisition by collaborating with product managers and UI/UX designers.</p>
-                        <p>Implemented a reusable login modal that triggers when an anonymous user interacts with a premium feature, enhancing user experience and conversion by integrating the modal with several features and using React components, hooks, and the Fluent UI library.</p>
-                        <p>Implemented the redirect experience for users who log in through the Microsoft login page based on each feature, ensuring a smooth and consistent transition by using React hooks, Redux toolkit, query parameters, and Microsoft’s Authentication Library.</p>
+                    <div class="experience_content"> <!-- Bullets -->
+                        <ul>
+                            <li>Scoped and designed the login flow for anonymous users who interact with premium features for <a href="https://designer.microsoft.com/" target="blank">Microsoft Designer</a>, preparing the app for public launch and user acquisition by collaborating with product managers and UI/UX designers.</li>
+                            <li>Implemented a reusable login modal that triggers when an anonymous user interacts with a premium feature, enhancing user experience and conversion by integrating the modal with several features and using React components, hooks, and the Fluent UI library.</li>
+                            <li>Implemented the redirect experience for users who log in through the Microsoft login page based on each feature, ensuring a smooth and consistent transition by using React hooks, Redux toolkit, query parameters, and Microsoft’s Authentication Library.</li>
+                        </ul>
                     </div>
                 </div>
-                <div> 
-                    <div> <!-- Company, Position, Date -->
+                <div class="experience_section"> 
+                    <div class="experience_header"> <!-- Company, Position, Date -->
                         <p>California Franchise Tax Board</p>
                         <p>Software Testing Student Assistant</p>
                         <p>December 2021 - Decemeber 2022</p>
                     </div>
-                    <div> <!-- Bullets -->
-                        <p>Wrote test scenarios for various tax workflows that the systems would process, ensuring comprehensive and accurate testing by collaborating with various teams and considering multiple edge cases.</p>
-                        <p>Manually validated the applications that tax professionals would use to process specific tax processes, verifying the functionality and useability by executing the approved test scenarios and validating the corresponding databases these applications used.</p>
-                        <p>Summarized the validation results and reported bugs to the system analyst and developer, facilitating timely and effective resolution by providing clear and detailed feedback.</p>
+                    <div class="experience_content"> <!-- Bullets -->
+                        <ul>
+                            <li>Wrote test scenarios for various tax workflows that the systems would process, ensuring comprehensive and accurate testing by collaborating with various teams and considering multiple edge cases.</li>
+                            <li>Manually validated the applications that tax professionals would use to process specific tax processes, verifying the functionality and useability by executing the approved test scenarios and validating the corresponding databases these applications used.</li>
+                            <li>Summarized the validation results and reported bugs to the system analyst and developer, facilitating timely and effective resolution by providing clear and detailed feedback.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div id="projects">
-                <div>
-                    <div> <!-- Project Name, Position, Date -->
+                <div class="projects_section">
+                    <p>PROJECTS</p>
+                    <div class="projects_header"> <!-- Project Name, Position, Date -->
                         <p>Chameleon Business Studio CSUS Senior Project (Link)</p>
                         <p>Software Developer</p>
                         <p>February 2022 - November 2022</p>
                     </div>
-                    <div> <!-- Bullets -->
-                        <p>Created a generic scheduling application on a team of four students from inception to completion, delivering a customizable and user-friendly product to our client, a liaison from <a href="https://www.vendia.com/" target="blank">Vendia</a>.</p>
-                        <p>Led the client-side development with one other student, building the UI skeleton and several pages such as the admin panel, scheduling page, and the appointment management page using the Angular Web Framework.</p>
-                        <p>Integrated the back end with the front end using Angular development patterns, ensuring a smooth and secure data exchange by using Observables to manage UI changes, as well as implementing the services that components used to make HTTP request to the back end, and implementing client-side authentication.</p>
+                    <div class="projects_content"> <!-- Bullets -->
+                        <ul>
+                            <li>Created a generic scheduling application on a team of four students from inception to completion, delivering a customizable and user-friendly product to our client, a liaison from <a href="https://www.vendia.com/" target="blank">Vendia</a>.</li>
+                            <li>Led the client-side development with one other student, building the UI skeleton and several pages such as the admin panel, scheduling page, and the appointment management page using the Angular Web Framework.</li>
+                            <li>Integrated the back end with the front end using Angular development patterns, ensuring a smooth and secure data exchange by using Observables to manage UI changes, as well as implementing the services that components used to make HTTP request to the back end, and implementing client-side authentication.</li>
+                        </ul>
                     </div>
                 </div>
-                <div>
-                    <div> <!-- Project Name, Position, Date -->
+                <div class="projects_section">
+                    <div class="projects_header"> <!-- Project Name, Position, Date -->
                         <p>Precious Photography Website CSC 131 Group Project</p>
                         <p>Software Developer</p>
                         <p>February 2021 - May 2021</p>
                     </div>
-                    <div> <!-- Bullets -->
-                        <p>Created an e-commerce website for selling photographs where any photographer can make postings to sell on from inception to completion for a client who is an aspiring entrepreneur.</p>
-                        <p>Implemented the shopping cart, system and customer generated email system, and the authentication features using Spring Boot and Spring Security on the back end and Thymeleaf templating engine for UI components.</p>
-                        <p>Wrote RESTful APIs for the front end to communicate with the back end and followed the Model View Controller architecture.</p>
+                    <div class="projects_content"> <!-- Bullets -->
+                        <ul>
+                            <li>Created an e-commerce website for selling photographs where any photographer can make postings to sell on from inception to completion for a client who is an aspiring entrepreneur.</li>
+                            <li>Implemented the shopping cart, system and customer generated email system, and the authentication features using Spring Boot and Spring Security on the back end and Thymeleaf templating engine for UI components.</li>
+                            <li>Wrote RESTful APIs for the front end to communicate with the back end and followed the Model View Controller architecture.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
