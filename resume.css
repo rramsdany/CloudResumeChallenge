@@ -2,10 +2,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+p {
+    margin: 0%;
 }
 
 hr {
     width: 100%;
+}
+
+ul {
+    margin: 0%;
 }
 
 #header {
@@ -36,15 +48,28 @@ hr {
 }
 
 .education_section {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12px;
+    font-family: 'Calibri';
+    font-size: 14px;
+    font-weight: 1000;
+    margin: 0%;
+    padding-bottom: 0.5cm;
+}
+
+.school_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu_text {
+    font-family:'Calibri';
+    font-size: 10px;
     font-weight: 1000;
     margin: 0%;
 }
 
-.edu_text {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 10px;
+.tech_skills_header {
+    font-family: 'Calibri';
+    font-size: 14px;
     font-weight: 1000;
     margin: 0%;
 }
@@ -53,15 +78,18 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 0.5cm;
 }
 
 .skills_list {
     columns: 3;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .tech_skills_section {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12px;
+    font-family: 'Calibri';
+    font-size: 14px;
     font-weight: 1000;
     margin: 0%;
 }
@@ -72,14 +100,21 @@ hr {
 }
 
 .experience_header {
-    columns: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .experience_section {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12px;
+    font-family: 'Calibri';
+    font-size: 14px;
     font-weight: 1000;
     margin: 0%;
+    padding-bottom: 0.5cm;
+}
+
+.experience_content {
+    font-weight: 500;
 }
 
 #projects {
@@ -88,12 +123,19 @@ hr {
 }
 
 .projects_section {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12px;
+    font-family: 'Calibri';
+    font-size: 14px;
     font-weight: 1000;
     margin: 0%;
+    padding-bottom: 0.5cm;
 }
 
 .projects_header {
-    columns: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects_content {
+    font-weight: 500;
 }
