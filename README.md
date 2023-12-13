@@ -3,7 +3,7 @@ My attempt at Forrest Brazeal's Cloud Resume Challenge: https://forrestbrazeal.c
 
 # Link to my resume being hosted on my custom domain:
 
-[MyResume](https://www.ramosdaniel-cloudresume.com/) 
+[My Resume](https://www.ramosdaniel-cloudresume.com/) 
 
 ## Challenge Steps:
 **2. HTML**    
