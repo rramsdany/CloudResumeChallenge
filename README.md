@@ -1,6 +1,10 @@
 # CloudResumeChallenge
 My attempt at Forrest Brazeal's Cloud Resume Challenge: https://forrestbrazeal.com/2020/04/23/the-cloud-resume-challenge/
 
+# Link to my resume being hosted on my custom domain:
+
+[MyResume](https://www.ramosdaniel-cloudresume.com/) 
+
 ## Challenge Steps:
 **2. HTML**    
    Your resume needs to be written in HTML. Not a Word doc, not a PDF. Here is an example of what I mean.  
